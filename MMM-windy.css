@@ -1,0 +1,19 @@
+body {
+  pointer-events: none;
+}
+
+.region.fullscreen.above .container,
+.region.fullscreen.above .container .module,
+.region.fullscreen.above .container .module .module-content,
+.region.fullscreen.above .container .module .module-content div,
+.module-content #windy {
+  height: 100%;
+}
+
+.region.fullscreen.above .container .module {
+  margin-bottom: 0;
+}
+
+.region.fullscreen.above {
+  z-index: -1;
+}
