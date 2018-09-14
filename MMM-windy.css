@@ -1,5 +1,6 @@
 body {
   pointer-events: none;
+  background: rgba(0, 0, 0, 0);
 }
 
 .region.fullscreen.above .container,
