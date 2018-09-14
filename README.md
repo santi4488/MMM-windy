@@ -1,11 +1,12 @@
 # MMM-Windy
 
 ### Introduction
-This is a module for [MagicMirror](https://github.com/MichMich/MagicMirror) that adds the [Windy](https://www.windy.com/) weather map. This module uses the [Windy API](https://api4.windy.com) to add the map.
+This is a module for [MagicMirror](https://github.com/MichMich/MagicMirror) that adds the [Windy](https://www.windy.com/) weather map.
 
-You will need to get your own API key which can be obtained [here](https://api4.windy.com/api-key).
+![alt text](https://github.com/santi4488/MMM-windy/blob/master/windy.PNG)
 
 ### Configuration
+You will need to get your own API key which can be obtained [here](https://api4.windy.com/api-key).
 To use the module, add the following to the modules array in your `config/config.js` file:
 ```
 {
