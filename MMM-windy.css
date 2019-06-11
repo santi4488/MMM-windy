@@ -11,6 +11,10 @@ body {
   height: 100%;
 }
 
+#windy #bottom {
+  height: auto;
+}
+
 .region.fullscreen.above .container .module {
   margin-bottom: 0;
 }
