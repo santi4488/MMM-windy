@@ -30,7 +30,6 @@ Module.register('MMM-windy', {
     var mapDiv = document.createElement('div');
     mapDiv.id = 'windy';
     wrapper.appendChild(mapDiv);
-    console.log(wrapper);
 
     return wrapper;
   },
@@ -77,6 +76,7 @@ Module.register('MMM-windy', {
         options.lat = self.config.location.lat;
         options.lng = self.config.location.lng;
       }
+      console.log(self.config);
       windyInit(options, windyAPI => {
         console.log(windyAPI);
       });
