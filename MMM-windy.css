@@ -7,18 +7,37 @@ body {
 .region.fullscreen.above .container .module,
 .region.fullscreen.above .container .module .module-content,
 .region.fullscreen.above .container .module .module-content div,
-.module-content #windy {
+.region.fullscreen.above .container .module .module-content div .module-content #windy {
   height: 100%;
+  width: 100%;
+}
+
+#module_5_MMM-windy,
+#module_5_MMM-windy .module-content,
+#module_5_MMM-windy .module-content div,
+#module_5_MMM-windy .module-content div .module-content #windy{
+  height: 100%;
+  width: 512px;
+}
+
+.region.top.left .container,
+.region.top.center .container
+.region.top.right .container {
+  height: 512px;
+  width: 100%;
+  max-width: 512px;
 }
 
 #windy #bottom {
   height: auto;
 }
 
-.region.fullscreen.above .container .module {
+.region.fullscreen.above .container .module,
+.region.top.right .container .module {
   margin-bottom: 0;
 }
 
-.region.fullscreen.above {
+.region.fullscreen.above,
+.region.top.right {
   z-index: -1;
 }
