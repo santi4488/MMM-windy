@@ -2,6 +2,11 @@ Module.register('MMM-windy', {
   defaults: {
     initLoadDelay: 50,
     apiKey: '',
+    zoom: 5,
+    particlesAnim: 'on',
+    graticule: false,
+    englishLabels: false,
+    hourFormat: '12h'
   },
   getScripts: function() {
     return [
@@ -62,7 +67,16 @@ Module.register('MMM-windy', {
     setTimeout(() => {
       const options = {
         key: self.config.apiKey,
+        zoom: self.config.zoom,
+        particlesAnim: self.config.particlesAnim,
+        graticule: self.config.graticule,
+        englishLabels: self.config.englishLabels,
+        hourFormat: self.config.hourFormat,
       };
+      if (self.config.location) {
+        options.lat = self.config.location.lat;
+        options.lng = self.config.location.lng;
+      }
       windyInit(options, windyAPI => {
         console.log(windyAPI);
       });
@@ -73,4 +87,4 @@ Module.register('MMM-windy', {
       'MMM-windy.css'
     ];
   }
-})
+});
