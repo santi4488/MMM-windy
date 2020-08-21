@@ -23,7 +23,7 @@ To use the module, add the following to the modules array in your `config/config
 		particlesAnim: 'on',	// optional, turns particles animation on or off, default 'on'
 		graticule: false,	// optional
 		englishLabels: false, // optional
-		hourFormat: '12h' // optional
+		hourFormat: '12h', // optional
 		overlay: 'windy' //optional
 	}
 }
