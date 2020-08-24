@@ -6,7 +6,8 @@ Module.register('MMM-windy', {
     particlesAnim: 'on',
     graticule: false,
     englishLabels: false,
-    hourFormat: '12h'
+    hourFormat: '12h',
+    overlay: 'wind'
   },
   getScripts: function() {
     return [
@@ -72,6 +73,7 @@ Module.register('MMM-windy', {
         graticule: self.config.graticule,
         englishLabels: self.config.englishLabels,
         hourFormat: self.config.hourFormat,
+        overlay: self.config.overlay,
       };
       if (self.config.location) {
         options.lat = self.config.location.lat;
