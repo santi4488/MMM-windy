@@ -29,4 +29,4 @@ To use the module, add the following to the modules array in your `config/config
 }
 ```
 
-For more information on the different options you can view them [here](https://api4.windy.com/examples/parameters)
+For more information on the different options you can view them [here](https://api.windy.com/examples/parameters)
