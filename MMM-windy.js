@@ -40,7 +40,7 @@ Module.register('MMM-windy', {
     Log.info('Starting module: ' + this.name);
     self.loaded = false;
     var scripts = [
-      'https://api4.windy.com/assets/libBoot.js'
+      'https://api.windy.com/assets/map-forecast/libBoot.js'
     ];
     var loadScripts = function(scripts) {
       var script = scripts.shift();

@@ -6,7 +6,7 @@ This is a module for [MagicMirror](https://github.com/MichMich/MagicMirror) that
 ![alt text](https://github.com/santi4488/MMM-windy/blob/master/windy.PNG)
 
 ### Configuration
-You will need to get your own API key which can be obtained [here](https://api4.windy.com/api-key).
+You will need to get your own API key which can be obtained [here](https://api.windy.com).
 To use the module, add the following to the modules array in your `config/config.js` file:
 ```
 {
@@ -29,4 +29,4 @@ To use the module, add the following to the modules array in your `config/config
 }
 ```
 
-For more information on the different options you can view them [here](https://api4.windy.com/examples/parameters)
+For more information on the different options you can view them [here](https://api.windy.com/examples/parameters)
